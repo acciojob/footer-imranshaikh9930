@@ -17,13 +17,42 @@ footer{
 	padding: 0px 15px;
 }
 
-.media-icons{
+.media-icons {
 	display:flex;
+
 	align-items:center;
 	justify-content:space-between;
 	gap:1.3rem;
 	padding:15px;
 	margin-top:5px;
+
+}
+.media-icons a{
+
+	display:flex;
+	text-decoration:none;
+	font-size:25px;
+	width:30px;
+	height:30px;
+	align-items:center;
+	justify-content:center;
+		color:white;
+
+	
+}
+.media-icons a:nth-child(2) {
+    background: lightblue;
+	border-radius:50%;
+
+	
+	
+}
+.media-icons a:nth-child(3) {
+    background: lightblue;
+	border-radius:50%;
+
+	
+	
 }
 
 
