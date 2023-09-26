@@ -31,13 +31,20 @@ footer{
 
 	display:flex;
 	text-decoration:none;
-	font-size:25px;
-	width:30px;
-	height:30px;
+	font-size:27px;
+	width:35px;
+	height:35px;
 	align-items:center;
 	justify-content:center;
-		color:white;
+	color:white;
 
+	
+}
+.media-icons a:nth-child(1) {
+    background: blue;
+	border-radius:50%;
+
+	
 	
 }
 .media-icons a:nth-child(2) {
@@ -48,7 +55,21 @@ footer{
 	
 }
 .media-icons a:nth-child(3) {
-    background: lightblue;
+    background: #E56E94;
+	border-radius:50%;
+
+	
+	
+}
+.media-icons a:nth-child(4) {
+    background:#003FFF;
+	border-radius:50%;
+
+	
+	
+}
+.media-icons a:nth-child(5) {
+    background:#FF0000;
 	border-radius:50%;
 
 	
